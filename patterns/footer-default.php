@@ -1,11 +1,4 @@
-<?php
-/**
- * Title:       Footer (Logo, Copyright, Social)
- * Slug:        extendable/footer-default
- * Categories:  footer
- * blockTypes:  core/template-part/footer
- */
-?>
+
 
 <!-- wp:group {"align":"full","layout":{"inherit":true},"style":{"spacing":{"padding":{"bottom":"var(--wp--style--block-gap)","top":"var(--wp--style--block-gap)"}}}} -->
 <div class="wp-block-group alignfull" style="padding-bottom:var(--wp--style--block-gap);padding-top:var(--wp--style--block-gap)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
@@ -18,7 +11,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© Your Company LLC</p>
+<p class="has-small-font-size"><?php echo esc_html__( '© Your Company LLC', 'extendable' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->

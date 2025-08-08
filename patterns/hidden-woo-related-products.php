@@ -1,10 +1,4 @@
-<?php
-/**
- * Title:    Related-Products
- * Slug:     extendable/hidden-woo-related-products
- * Inserter: no
- */
-?>
+
 
 <!-- wp:woocommerce/related-products {"align":"wide"} -->
 <div class="wp-block-woocommerce-related-products alignwide">

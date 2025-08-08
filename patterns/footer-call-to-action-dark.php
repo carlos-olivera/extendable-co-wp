@@ -1,25 +1,18 @@
-<?php
-/**
- * Title:       Dark Footer, Call to Action
- * Slug:        extendable/footer-call-to-action-dark
- * Categories:  footer
- * blockTypes:  core/template-part/footer
- */
-?>
+
 
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"3rem","padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0px","bottom":"1rem"}}}} -->
-<h2 class="has-text-align-center" style="margin-top:0px;margin-bottom:1rem">Let's Work Together</h2>
+<h2 class="has-text-align-center" style="margin-top:0px;margin-bottom:1rem"><?php echo esc_html__( 'Let\'s Work Together', 'extendable' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Contact us</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Contact us', 'extendable' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">Learn More</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Learn More', 'extendable' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -37,7 +30,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"1.5rem"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="has-medium-font-size">Products</h3>
+<h3 class="has-medium-font-size"><?php echo esc_html__( 'Products', 'extendable' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"ref":85,"overlayMenu":"never","overlayTextColor":"foreground","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"0.5rem"}}} /--></div>
@@ -45,7 +38,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"1.5rem"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="has-medium-font-size">Articles</h3>
+<h3 class="has-medium-font-size"><?php echo esc_html__( 'Articles', 'extendable' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"ref":85,"overlayMenu":"never","overlayTextColor":"foreground","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"0.5rem"}}} /--></div>
@@ -53,7 +46,7 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"1.5rem"}}} -->
 <div class="wp-block-column"><!-- wp:heading {"level":3,"fontSize":"medium"} -->
-<h3 class="has-medium-font-size">About</h3>
+<h3 class="has-medium-font-size"><?php echo esc_html__( 'About', 'extendable' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"ref":85,"overlayMenu":"never","overlayTextColor":"foreground","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"0.5rem"}}} /--></div>
@@ -68,7 +61,7 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="padding-bottom:1rem"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© Your Company LLC</p>
+<p class="has-small-font-size"><?php echo esc_html__( '© Your Company LLC', 'extendable' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->

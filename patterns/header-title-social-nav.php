@@ -1,11 +1,4 @@
-<?php
-/**
- * Title:       Header (Site Title, Social, Navigation)
- * Slug:        extendable/header-title-social-nav
- * Categories:  header
- * blockTypes:  core/template-part/header
- */
-?>
+
 
 <!-- wp:group {"tagName":"header","align":"full","layout":{"inherit":true,"type":"constrained"}} -->
 <header class="wp-block-group alignfull">

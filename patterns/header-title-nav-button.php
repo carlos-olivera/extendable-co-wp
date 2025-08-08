@@ -1,11 +1,4 @@
-<?php
-/**
- * Title:       Header (Site Title, Navigation, Button)
- * Slug:        extendable/header-title-nav-button
- * Categories:  header
- * blockTypes:  core/template-part/header
- */
-?>
+
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"clamp(1.5rem, 5vw, 2rem)","right":"clamp(1.5rem, 5vw, 2rem)","bottom":"clamp(1.5rem, 5vw, 2rem)","left":"clamp(1.5rem, 5vw, 2rem)"}}}} -->
 <div class="wp-block-group alignfull"

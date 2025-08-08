@@ -1,11 +1,4 @@
-<?php
-/**
- * Title:       Footer, Logo and Navigation TEST
- * Slug:        extendable/footer-logo-nav
- * Categories:  footer
- * blockTypes:  core/template-part/footer
- */
-?>
+
 
 <!-- wp:group {"tagName":"footer","align":"full"} -->
 <footer class="wp-block-group alignfull">
@@ -17,8 +10,12 @@
 			<!-- wp:site-title {"className":"is-style-rounded"} /-->
 
 			<!-- wp:paragraph {"align":"right","fontSize":"small"} -->
-			<p class="has-text-align-right has-small-font-size">Proudly powered by <a href="https://wordpress.org"
-					rel="nofollow">WordPress</a></p>
+			<p class="has-text-align-right has-small-font-size"><?php
+				printf(
+					esc_html__('Proudly powered by %s', 'extendable'),
+					'<a href="https://wordpress.org" rel="nofollow">WordPress</a>'
+				);
+				?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

@@ -116,6 +116,8 @@ function extendable_enqueue_block_styles() {
 
 add_action( 'enqueue_block_assets', 'extendable_enqueue_block_styles' );
 
+require_once get_template_directory() . '/inc/register-patterns.php';
+
 /**
  * Registers pattern categories.
  *
